@@ -1,0 +1,23 @@
+# Project dependencies
+pandas                    # used in dashboard.py, backtest.py
+yfinance                  # used in dashboard.py, backtest.py
+streamlit                 # dashboard web application
+matplotlib                # plotting for dashboard & backtest
+sec-api                   # SEC filings fetcher (tools/sec/)
+python-dotenv             # load .env in various tools
+openai                    # OpenAI client for research tool
+PyYAML>=6.0               # YAML parsing (tools/chrome/)
+pybit                     # Bybit API wrapper
+ib_insync>=0.9.85         # Interactive Brokers API wrapper
+
+# HTTP & parsing
+requests>=2.31.0          # REST requests (FRED, Treasury, CoinGecko APIs)
+beautifulsoup4>=4.12.0    # HTML parsing (Treasury.gov)
+lxml>=4.9.0               # fast XML parsing
+
+# Numeric / scientific
+numpy>=1.24.0             # numerical calculations for indicators
+
+# Indicator-specific
+fredapi>=0.5.0           # FRED API client
+pycoingecko>=3.1.0       # CoinGecko API client

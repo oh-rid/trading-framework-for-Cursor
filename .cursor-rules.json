@@ -1,0 +1,13 @@
+{
+  "contexts": [
+    {"name": "analysis"},
+    {"name": "execution"},
+    {"name": "reflection"},
+    {"name": "coding"},
+    {
+      "name": "🧠 Active Memory",
+      "include": ["memory_bank/active_memory/**/*.md"],
+      "description": "Active knowledge automatically loaded. Assistant may remind to copy fresh indicator/portfolio/mindset files into this folder after running tools."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-08-01T17:03:06+00:00",
+  "indicators": {
+    "liquidity": {
+      "tga_balance": {
+        "value": 417.834,
+        "date": "2025-07-30",
+        "status": "ok",
+        "source": "treasury"
+      },
+      "rrp_volume": {
+        "value": 214.445,
+        "date": "2025-07-31",
+        "status": "ok",
+        "source": "fred"
+      },
+      "net_liquidity": {
+        "value": 6010.299000000001,
+        "status": "ok",
+        "source": "custom",
+        "components": {
+          "fed": 6642.578,
+          "tga": 417.834,
+          "rrp": 214.445
+        }
+      }
+    },
+    "macro": {
+      "ust_30y": {
+        "value": 4.89,
+        "status": "ok",
+        "source": "fred_fallback"
+      },
+      "ust_10y": {
+        "value": 4.38,
+        "status": "ok",
+        "source": "fred_fallback"
+      },
+      "dxy": {
+        "value": 120.4082,
+        "status": "ok",
+        "source": "fred_fallback"
+      },
+      "vix": {
+        "value": 16.72,
+        "status": "ok",
+        "source": "fred_fallback"
+      },
+      "m2_money_stock": {
+        "value": 22020.8,
+        "date": "2025-06-01",
+        "status": "ok",
+        "source": "fred"
+      },
+      "fed_balance_sheet": {
+        "value": 6642.578,
+        "date": "2025-07-30",
+        "status": "ok",
+        "source": "fred"
+      },
+      "federal_debt": {
+        "value": 36214.31,
+        "date": "2025-01-01",
+        "status": "ok",
+        "source": "fred"
+      },
+      "gdp": {
+        "value": 30331.117,
+        "date": "2025-04-01",
+        "status": "ok",
+        "source": "fred"
+      }
+    },
+    "crypto": {},
+    "risk": {}
+  }
+}

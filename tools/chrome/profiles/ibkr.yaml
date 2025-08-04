@@ -1,0 +1,22 @@
+# Interactive Brokers (Client Portal) prototype profile
+
+login:
+  success_selector: "#account-summary"
+  steps:
+    - type: click
+      selector: "#user_name"
+    - type: text
+      keychain_service: IBKR_USER
+    - type: click
+      selector: "#password"
+    - type: text
+      keychain_service: IBKR_PASS
+    - type: click
+      selector: "button[type='submit']"
+
+actions:
+  fetch_positions:
+    navigate: "https://clientportal.interactivebrokers.com/account/portfolio"
+    extract:
+      table_selector: "table.positions"
+      format: csv 

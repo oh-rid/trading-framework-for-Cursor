@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# .env file with secrets
+.env
+
+
+# Editor service directories
+.cursor/
+
+# Python bytecode cache
+__pycache__/
+
+# macOS Finder artifacts
+.DS_Store
+
+# direnv environment file
+.envrc
+
+# Cursor IDE ignore rules
+.cursorignore

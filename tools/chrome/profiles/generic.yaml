@@ -1,0 +1,6 @@
+# Generic profile – actions that do not require authentication.
+
+actions:
+  get_current_url:
+    description: "Returns the URL of the active Google Chrome tab."
+    extract: location
